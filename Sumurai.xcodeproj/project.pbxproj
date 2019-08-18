@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D01212222FD3C0500DD9549 /* openBook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D01212122FD3C0500DD9549 /* openBook.jpg */; };
+		5D01212422FD3CA900DD9549 /* anotherBook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D01212322FD3CA900DD9549 /* anotherBook.jpg */; };
+		5D01212622FD4AD300DD9549 /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01212522FD4AD300DD9549 /* LoadingScreenViewController.swift */; };
+		5D01212822FD4EDA00DD9549 /* SumaraiLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01212722FD4EDA00DD9549 /* SumaraiLoadViewController.swift */; };
+		5D01212A22FD631B00DD9549 /* 6936-class-ninjas-floating-ninja.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D01212922FD631B00DD9549 /* 6936-class-ninjas-floating-ninja.json */; };
+		5D01212C22FD6F9B00DD9549 /* 6886-antiloop.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D01212B22FD6F9B00DD9549 /* 6886-antiloop.json */; };
+		5DA70D9A22EF6ECA00646D0D /* emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA70D9922EF6ECA00646D0D /* emoji.png */; };
+		5DD808FD22DE7F9C00FE0C0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD808FC22DE7F9C00FE0C0D /* AppDelegate.swift */; };
+		5DD808FF22DE7F9C00FE0C0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD808FE22DE7F9C00FE0C0D /* ViewController.swift */; };
+		5DD8090222DE7F9C00FE0C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8090022DE7F9C00FE0C0D /* Main.storyboard */; };
+		5DD8090422DE7F9D00FE0C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8090322DE7F9D00FE0C0D /* Assets.xcassets */; };
+		5DD8090722DE7F9D00FE0C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD8090522DE7F9D00FE0C0D /* LaunchScreen.storyboard */; };
+		79A4EECA16AAD8A4ACB2FD4A /* libPods-Sumurai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4924A04483118A8932437851 /* libPods-Sumurai.a */; };
+		9B30608322F0CA950054841B /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30608222F0CA950054841B /* ArticleViewController.swift */; };
+		9B30608522F2456C0054841B /* MainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30608422F2456C0054841B /* MainContentViewController.swift */; };
+		9B96813C22EF98B7004B96A6 /* microsoft filler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B96813B22EF98B7004B96A6 /* microsoft filler.jpg */; };
+		9B96813E22EF9C45004B96A6 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B96813D22EF9C45004B96A6 /* ListTableViewController.swift */; };
+		9B96814322EFB0A4004B96A6 /* dojo_on_mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B96814222EFB0A4004B96A6 /* dojo_on_mountain.png */; };
+		9BA06E6A22F91AE6004A53E9 /* theBook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BA06E6922F91AE6004A53E9 /* theBook.jpg */; };
+		9BB519F422F3695C00F3C2BA /* computer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BB519F322F3695C00F3C2BA /* computer.jpg */; };
+		9BB519F622F36AC900F3C2BA /* comp_sci.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9BB519F522F36AC900F3C2BA /* comp_sci.jpeg */; };
+		9BB5636E22F4EA560090BD2A /* SwordSoundEffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5636D22F4EA560090BD2A /* SwordSoundEffect.mp3 */; };
+		9BB5637022F4F8EF0090BD2A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5636F22F4F8EF0090BD2A /* File.swift */; };
+		9BB6181522E914FA0066CBEA /* CardContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB6181422E914FA0066CBEA /* CardContentViewController.swift */; };
+		9BB6181922EA2EBA0066CBEA /* HighlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB6181822EA2EBA0066CBEA /* HighlightViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F2D8E37EC55DD7B626C1F09 /* Pods-Sumurai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumurai.release.xcconfig"; path = "Target Support Files/Pods-Sumurai/Pods-Sumurai.release.xcconfig"; sourceTree = "<group>"; };
+		4924A04483118A8932437851 /* libPods-Sumurai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sumurai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D01212122FD3C0500DD9549 /* openBook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = openBook.jpg; sourceTree = "<group>"; };
+		5D01212322FD3CA900DD9549 /* anotherBook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anotherBook.jpg; sourceTree = "<group>"; };
+		5D01212522FD4AD300DD9549 /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+		5D01212722FD4EDA00DD9549 /* SumaraiLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumaraiLoadViewController.swift; sourceTree = "<group>"; };
+		5D01212922FD631B00DD9549 /* 6936-class-ninjas-floating-ninja.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6936-class-ninjas-floating-ninja.json"; sourceTree = "<group>"; };
+		5D01212B22FD6F9B00DD9549 /* 6886-antiloop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6886-antiloop.json"; sourceTree = "<group>"; };
+		5DA70D9922EF6ECA00646D0D /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji.png; sourceTree = "<group>"; };
+		5DD808F922DE7F9C00FE0C0D /* Sumurai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sumurai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD808FC22DE7F9C00FE0C0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DD808FE22DE7F9C00FE0C0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DD8090122DE7F9C00FE0C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DD8090322DE7F9D00FE0C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DD8090622DE7F9D00FE0C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DD8090822DE7F9D00FE0C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B30608222F0CA950054841B /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		9B30608422F2456C0054841B /* MainContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentViewController.swift; sourceTree = "<group>"; };
+		9B96813B22EF98B7004B96A6 /* microsoft filler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "microsoft filler.jpg"; path = "Sumurai/Images/microsoft filler.jpg"; sourceTree = SOURCE_ROOT; };
+		9B96813D22EF9C45004B96A6 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		9B96814222EFB0A4004B96A6 /* dojo_on_mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dojo_on_mountain.png; sourceTree = "<group>"; };
+		9BA06E5D22F79A29004A53E9 /* Sumurai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sumurai.entitlements; sourceTree = "<group>"; };
+		9BA06E6922F91AE6004A53E9 /* theBook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theBook.jpg; sourceTree = "<group>"; };
+		9BB519F322F3695C00F3C2BA /* computer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = computer.jpg; sourceTree = "<group>"; };
+		9BB519F522F36AC900F3C2BA /* comp_sci.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comp_sci.jpeg; sourceTree = "<group>"; };
+		9BB5636D22F4EA560090BD2A /* SwordSoundEffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SwordSoundEffect.mp3; sourceTree = "<group>"; };
+		9BB5636F22F4F8EF0090BD2A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		9BB6181422E914FA0066CBEA /* CardContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentViewController.swift; sourceTree = "<group>"; };
+		9BB6181822EA2EBA0066CBEA /* HighlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightViewController.swift; sourceTree = "<group>"; };
+		C6E3FF9A36F2408B44E2E4C8 /* Pods-Sumurai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumurai.debug.xcconfig"; path = "Target Support Files/Pods-Sumurai/Pods-Sumurai.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DD808F622DE7F9C00FE0C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A4EECA16AAD8A4ACB2FD4A /* libPods-Sumurai.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DD808F022DE7F9C00FE0C0D = {
+			isa = PBXGroup;
+			children = (
+				5DD808FB22DE7F9C00FE0C0D /* Sumurai */,
+				5DD808FA22DE7F9C00FE0C0D /* Products */,
+				A521F019D7EF9C61EE4FA7E0 /* Pods */,
+				F9DD9C2BE26F17C919AE2EE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DD808FA22DE7F9C00FE0C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DD808F922DE7F9C00FE0C0D /* Sumurai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD808FB22DE7F9C00FE0C0D /* Sumurai */ = {
+			isa = PBXGroup;
+			children = (
+				5D01212922FD631B00DD9549 /* 6936-class-ninjas-floating-ninja.json */,
+				5D01212B22FD6F9B00DD9549 /* 6886-antiloop.json */,
+				9BA06E6922F91AE6004A53E9 /* theBook.jpg */,
+				5D01212122FD3C0500DD9549 /* openBook.jpg */,
+				5D01212322FD3CA900DD9549 /* anotherBook.jpg */,
+				9BA06E5D22F79A29004A53E9 /* Sumurai.entitlements */,
+				5DD808FC22DE7F9C00FE0C0D /* AppDelegate.swift */,
+				9BB5637122F4F9BD0090BD2A /* Resources */,
+				5DD8090022DE7F9C00FE0C0D /* Main.storyboard */,
+				9BB5636C22F3988B0090BD2A /* Images */,
+				9B96814122EFAD14004B96A6 /* View Controllers */,
+				5DD8090322DE7F9D00FE0C0D /* Assets.xcassets */,
+				5DD8090522DE7F9D00FE0C0D /* LaunchScreen.storyboard */,
+				9BB5636F22F4F8EF0090BD2A /* File.swift */,
+				5DD8090822DE7F9D00FE0C0D /* Info.plist */,
+			);
+			path = Sumurai;
+			sourceTree = "<group>";
+		};
+		9B96814122EFAD14004B96A6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B30608222F0CA950054841B /* ArticleViewController.swift */,
+				5D01212522FD4AD300DD9549 /* LoadingScreenViewController.swift */,
+				5DD808FE22DE7F9C00FE0C0D /* ViewController.swift */,
+				9BB6181422E914FA0066CBEA /* CardContentViewController.swift */,
+				9B96813D22EF9C45004B96A6 /* ListTableViewController.swift */,
+				9BB6181822EA2EBA0066CBEA /* HighlightViewController.swift */,
+				9B30608422F2456C0054841B /* MainContentViewController.swift */,
+				5D01212722FD4EDA00DD9549 /* SumaraiLoadViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9BB5636C22F3988B0090BD2A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B96813B22EF98B7004B96A6 /* microsoft filler.jpg */,
+				9BB519F322F3695C00F3C2BA /* computer.jpg */,
+				9B96814222EFB0A4004B96A6 /* dojo_on_mountain.png */,
+				9BB519F522F36AC900F3C2BA /* comp_sci.jpeg */,
+				5DA70D9922EF6ECA00646D0D /* emoji.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9BB5637122F4F9BD0090BD2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BB5636D22F4EA560090BD2A /* SwordSoundEffect.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A521F019D7EF9C61EE4FA7E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6E3FF9A36F2408B44E2E4C8 /* Pods-Sumurai.debug.xcconfig */,
+				2F2D8E37EC55DD7B626C1F09 /* Pods-Sumurai.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9DD9C2BE26F17C919AE2EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4924A04483118A8932437851 /* libPods-Sumurai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DD808F822DE7F9C00FE0C0D /* Sumurai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DD8090B22DE7F9D00FE0C0D /* Build configuration list for PBXNativeTarget "Sumurai" */;
+			buildPhases = (
+				020CA82FD32EA237370B061E /* [CP] Check Pods Manifest.lock */,
+				5DD808F522DE7F9C00FE0C0D /* Sources */,
+				5DD808F622DE7F9C00FE0C0D /* Frameworks */,
+				5DD808F722DE7F9C00FE0C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sumurai;
+			productName = Sumurai;
+			productReference = 5DD808F922DE7F9C00FE0C0D /* Sumurai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DD808F122DE7F9C00FE0C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "CodeBusters IC";
+				TargetAttributes = {
+					5DD808F822DE7F9C00FE0C0D = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5DD808F422DE7F9C00FE0C0D /* Build configuration list for PBXProject "Sumurai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DD808F022DE7F9C00FE0C0D;
+			productRefGroup = 5DD808FA22DE7F9C00FE0C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DD808F822DE7F9C00FE0C0D /* Sumurai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD808F722DE7F9C00FE0C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB519F422F3695C00F3C2BA /* computer.jpg in Resources */,
+				5DD8090722DE7F9D00FE0C0D /* LaunchScreen.storyboard in Resources */,
+				5D01212422FD3CA900DD9549 /* anotherBook.jpg in Resources */,
+				9B96814322EFB0A4004B96A6 /* dojo_on_mountain.png in Resources */,
+				5D01212222FD3C0500DD9549 /* openBook.jpg in Resources */,
+				9BB5636E22F4EA560090BD2A /* SwordSoundEffect.mp3 in Resources */,
+				5D01212A22FD631B00DD9549 /* 6936-class-ninjas-floating-ninja.json in Resources */,
+				5DD8090422DE7F9D00FE0C0D /* Assets.xcassets in Resources */,
+				9B96813C22EF98B7004B96A6 /* microsoft filler.jpg in Resources */,
+				5D01212C22FD6F9B00DD9549 /* 6886-antiloop.json in Resources */,
+				5DD8090222DE7F9C00FE0C0D /* Main.storyboard in Resources */,
+				9BB519F622F36AC900F3C2BA /* comp_sci.jpeg in Resources */,
+				9BA06E6A22F91AE6004A53E9 /* theBook.jpg in Resources */,
+				5DA70D9A22EF6ECA00646D0D /* emoji.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		020CA82FD32EA237370B061E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sumurai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD808F522DE7F9C00FE0C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB6181522E914FA0066CBEA /* CardContentViewController.swift in Sources */,
+				9B30608322F0CA950054841B /* ArticleViewController.swift in Sources */,
+				5DD808FF22DE7F9C00FE0C0D /* ViewController.swift in Sources */,
+				5DD808FD22DE7F9C00FE0C0D /* AppDelegate.swift in Sources */,
+				9B96813E22EF9C45004B96A6 /* ListTableViewController.swift in Sources */,
+				5D01212622FD4AD300DD9549 /* LoadingScreenViewController.swift in Sources */,
+				9BB5637022F4F8EF0090BD2A /* File.swift in Sources */,
+				5D01212822FD4EDA00DD9549 /* SumaraiLoadViewController.swift in Sources */,
+				9BB6181922EA2EBA0066CBEA /* HighlightViewController.swift in Sources */,
+				9B30608522F2456C0054841B /* MainContentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DD8090022DE7F9C00FE0C0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD8090122DE7F9C00FE0C0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DD8090522DE7F9D00FE0C0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DD8090622DE7F9D00FE0C0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DD8090922DE7F9D00FE0C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DD8090A22DE7F9D00FE0C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DD8090C22DE7F9D00FE0C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E3FF9A36F2408B44E2E4C8 /* Pods-Sumurai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLKRDHPRPR;
+				INFOPLIST_FILE = Sumurai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebusters.Sumurai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DD8090D22DE7F9D00FE0C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2D8E37EC55DD7B626C1F09 /* Pods-Sumurai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLKRDHPRPR;
+				INFOPLIST_FILE = Sumurai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebusters.Sumurai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DD808F422DE7F9C00FE0C0D /* Build configuration list for PBXProject "Sumurai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD8090922DE7F9D00FE0C0D /* Debug */,
+				5DD8090A22DE7F9D00FE0C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DD8090B22DE7F9D00FE0C0D /* Build configuration list for PBXNativeTarget "Sumurai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD8090C22DE7F9D00FE0C0D /* Debug */,
+				5DD8090D22DE7F9D00FE0C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DD808F122DE7F9C00FE0C0D /* Project object */;
+}

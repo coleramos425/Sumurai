@@ -1,0 +1,6 @@
+module Pods_Sumurai {
+  umbrella header "Pods-Sumurai-umbrella.h"
+
+  export *
+  module * { export * }
+}
